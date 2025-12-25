@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Staypilot | Global concierge-service</title>
+  <meta name="description" content="Staypilot tilbyder globale concierge-services til private og virksomheder: rejser, VIP-access, events og personlig assistance." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Staypilot">
+        <div class="logo" aria-hidden="true"></div>
+        <span>Staypilot</span>
+      </a>
+      <nav class="navlinks" aria-label="Navigation">
+        <a class="active" href="index.html">Forside</a>
+        <a href="om-os.html">Om os</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+      <a class="btn" href="kontakt.html">Kontakt os</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container heroGrid">
+        <div class="card heroCard">
+          <div class="kicker">Global concierge • Privat & erhverv</div>
+          <h1>Staypilot – Din nøgle til eksklusive oplevelser verden over</h1>
+          <p class="lead">
+            Vi hjælper dig med alt fra rejser og bordreservationer til VIP-access, events, last-minute løsninger
+            og diskret, personlig assistance – uanset hvor i verden du befinder dig.
+          </p>
+
+          <div class="actions">
+            <a class="btn primary" href="kontakt.html">Kontakt os</a>
+            <a class="btn" href="om-os.html">Lær mere</a>
+          </div>
+        </div>
+
+        <aside class="card sideCard">
+          <div class="pill">Nøglefordele</div>
+          <h3>Concierge, der føles som en forlængelse af dit team</h3>
+          <ul class="bullets">
+            <li><strong>Personlig service</strong> – én kontakt, hurtig eksekvering.</li>
+            <li><strong>Global rækkevidde</strong> – stærkt netværk på tværs af byer og lande.</li>
+            <li><strong>Tidspartnerskab</strong> – vi frigør tid til det, der betyder mest.</li>
+            <li><strong>Professionelt & diskret</strong> – tryghed, kvalitet og tillid.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="sectionTitle">Hvad tilbyder vi</h2>
+        <div class="grid3">
+          <div class="card feature">
+            <div class="pill">Privat</div>
+            <h4>Rejser & ophold</h4>
+            <p>Planlægning, anbefalinger, hotel, transport, oplevelser og detaljer – fra weekendture til længere rejser.</p>
+          </div>
+          <div class="card feature">
+            <div class="pill">VIP</div>
+            <h4>Adgang & reservationer</h4>
+            <p>Bordreservationer, billetter, private rum, udsolgte events (hvor muligt) og særlige ønsker.</p>
+          </div>
+          <div class="card feature">
+            <div class="pill">Erhverv</div>
+            <h4>Executive assistance</h4>
+            <p>Firmarejser, møde- og eventplanlægning, kundeoplevelser og praktisk support i en travl hverdag.</p>
+          </div>
+        </div>
+
+        <div class="card feature" style="margin-top:16px; padding:22px;">
+          <h4>Sådan arbejder vi</h4>
+          <p style="margin:0; color:rgba(245,247,255,.72)">
+            Du sender en forespørgsel. Vi afklarer behov, budget og tidslinje. Derefter eksekverer vi og følger op,
+            så du kan læne dig tilbage med ro i maven.
+          </p>
+          <div class="actions" style="margin-top:14px;">
+            <a class="btn primary" href="kontakt.html">Få en hurtig vurdering</a>
+            <a class="btn" href="kontakt.html#formular">Send en forespørgsel</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> Staypilot. Alle rettigheder forbeholdes.
+      <div class="smallLinks">
+        <a href="om-os.html">Om os</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

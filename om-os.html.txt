@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Om os | Staypilot</title>
+  <meta name="description" content="Læs om Staypilot: hvorfor vi findes, vores værdier og hvordan vi skaber skræddersyede concierge-oplevelser." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Staypilot">
+        <div class="logo" aria-hidden="true"></div>
+        <span>Staypilot</span>
+      </a>
+      <nav class="navlinks" aria-label="Navigation">
+        <a href="index.html">Forside</a>
+        <a class="active" href="om-os.html">Om os</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+      <a class="btn" href="kontakt.html">Kontakt os</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="pageHeader">
+      <div class="container">
+        <h2>Om Staypilot</h2>
+        <p>
+          Staypilot er en dansk concierge-virksomhed, der hjælper private og virksomheder med at få mere ud af tiden,
+          rejserne og mulighederne – med høj service, diskretion og global rækkevidde.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid3">
+        <div class="card feature">
+          <div class="pill">Hvem vi er</div>
+          <h4>Din personlige “fixer” – på den professionelle måde</h4>
+          <p>
+            Vi er et dedikeret team med erfaring i at koordinere alt fra enkle hverdagsopgaver til komplekse rejse- og
+            eventforløb. Vores job er at gøre det nemt for dig.
+          </p>
+        </div>
+
+        <div class="card feature">
+          <div class="pill">Hvorfor vi startede</div>
+          <h4>Fordi tid er den mest værdifulde ressource</h4>
+          <p>
+            Staypilot blev skabt for at give kunder en pålidelig partner, der kan handle hurtigt, tænke i løsninger
+            og levere premium oplevelser – uden støj.
+          </p>
+        </div>
+
+        <div class="card feature">
+          <div class="pill">Det, der gør os unikke</div>
+          <h4>Skræddersyet, transparent og menneskeligt</h4>
+          <p>
+            Vi arbejder med klare forventninger, hurtig respons og høj kvalitet. Det skal føles som at have et
+            ekstra gear – ikke en ekstra opgave.
+          </p>
+        </div>
+      </div>
+
+      <div class="container" style="margin-top:16px;">
+        <div class="card feature" style="padding:22px;">
+          <h4>Vores værdier</h4>
+          <p style="margin:0; color:rgba(245,247,255,.72)">
+            <strong>Professionalisme</strong> (vi leverer, som lovet) •
+            <strong>Tillid</strong> (diskretion og ansvar) •
+            <strong>Præcision</strong> (detaljer og kvalitet) •
+            <strong>Fleksibilitet</strong> (vi finder en vej).
+          </p>
+        </div>
+
+        <div class="card feature" style="margin-top:16px; padding:22px;">
+          <h4>Mission & vision</h4>
+          <p style="margin:0; color:rgba(245,247,255,.72)">
+            <strong>Mission:</strong> At gøre premium service enkel og tilgængelig – fra første besked til sidste detalje.<br/>
+            <strong>Vision:</strong> At blive den mest betroede danske concierge-partner for globale oplevelser og eksekvering i topklasse.
+          </p>
+          <div class="actions" style="margin-top:14px;">
+            <a class="btn primary" href="kontakt.html">Kontakt os</a>
+            <a class="btn" href="index.html">Se services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> Staypilot. Alle rettigheder forbeholdes.
+      <div class="smallLinks">
+        <a href="index.html">Forside</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
